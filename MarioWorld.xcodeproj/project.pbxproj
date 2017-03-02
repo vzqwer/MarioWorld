@@ -15,7 +15,13 @@
 		7CFEB8971E687A2800A3953F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8951E687A2800A3953F /* LaunchScreen.storyboard */; };
 		7CFEB8A21E687A2800A3953F /* MarioWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEB8A11E687A2800A3953F /* MarioWorldTests.swift */; };
 		7CFEB8AD1E687A2800A3953F /* MarioWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEB8AC1E687A2800A3953F /* MarioWorldUITests.swift */; };
-		7CFEB8BB1E687AEB00A3953F /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8BA1E687AEB00A3953F /* Configuration.plist */; };
+		7CFEB8BB1E687AEB00A3953F /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8BA1E687AEB00A3953F /* Config.plist */; };
+		7CFEB8C01E68AA4600A3953F /* загрузочный экран.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8BD1E68AA4600A3953F /* загрузочный экран.wav */; };
+		7CFEB8C11E68AA4600A3953F /* фанфары - машина найдена.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8BE1E68AA4600A3953F /* фанфары - машина найдена.wav */; };
+		7CFEB8C21E68AA4600A3953F /* фанфары - машина не найдена.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8BF1E68AA4600A3953F /* фанфары - машина не найдена.wav */; };
+		7CFEB8C61E68AAA500A3953F /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8C31E68AAA500A3953F /* Untitled.png */; };
+		7CFEB8C71E68AAA500A3953F /* Untitled2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8C41E68AAA500A3953F /* Untitled2.png */; };
+		7CFEB8C81E68AAA500A3953F /* Untitled3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8C51E68AAA500A3953F /* Untitled3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +55,13 @@
 		7CFEB8A81E687A2800A3953F /* MarioWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFEB8AC1E687A2800A3953F /* MarioWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioWorldUITests.swift; sourceTree = "<group>"; };
 		7CFEB8AE1E687A2800A3953F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CFEB8BA1E687AEB00A3953F /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		7CFEB8BA1E687AEB00A3953F /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		7CFEB8BD1E68AA4600A3953F /* загрузочный экран.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "загрузочный экран.wav"; sourceTree = "<group>"; };
+		7CFEB8BE1E68AA4600A3953F /* фанфары - машина найдена.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "фанфары - машина найдена.wav"; sourceTree = "<group>"; };
+		7CFEB8BF1E68AA4600A3953F /* фанфары - машина не найдена.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "фанфары - машина не найдена.wav"; sourceTree = "<group>"; };
+		7CFEB8C31E68AAA500A3953F /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		7CFEB8C41E68AAA500A3953F /* Untitled2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled2.png; sourceTree = "<group>"; };
+		7CFEB8C51E68AAA500A3953F /* Untitled3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled3.png; sourceTree = "<group>"; };
 		9120740948737E64CEF37A76 /* Pods-MarioWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarioWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarioWorld/Pods-MarioWorld.release.xcconfig"; sourceTree = "<group>"; };
 		CA765C5BA0A1C1415D334695 /* Pods_MarioWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarioWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10559065C71F47D44EFF2E3 /* Pods-MarioWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarioWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarioWorld/Pods-MarioWorld.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,13 +127,14 @@
 		7CFEB88B1E687A2800A3953F /* MarioWorld */ = {
 			isa = PBXGroup;
 			children = (
+				7CFEB8BC1E68AA1200A3953F /* Resources */,
 				7CFEB88C1E687A2800A3953F /* AppDelegate.swift */,
 				7CFEB88E1E687A2800A3953F /* ViewController.swift */,
 				7CFEB8901E687A2800A3953F /* Main.storyboard */,
 				7CFEB8931E687A2800A3953F /* Assets.xcassets */,
 				7CFEB8951E687A2800A3953F /* LaunchScreen.storyboard */,
 				7CFEB8981E687A2800A3953F /* Info.plist */,
-				7CFEB8BA1E687AEB00A3953F /* Configuration.plist */,
+				7CFEB8BA1E687AEB00A3953F /* Config.plist */,
 			);
 			path = MarioWorld;
 			sourceTree = "<group>";
@@ -142,6 +155,19 @@
 				7CFEB8AE1E687A2800A3953F /* Info.plist */,
 			);
 			path = MarioWorldUITests;
+			sourceTree = "<group>";
+		};
+		7CFEB8BC1E68AA1200A3953F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CFEB8C31E68AAA500A3953F /* Untitled.png */,
+				7CFEB8C41E68AAA500A3953F /* Untitled2.png */,
+				7CFEB8C51E68AAA500A3953F /* Untitled3.png */,
+				7CFEB8BD1E68AA4600A3953F /* загрузочный экран.wav */,
+				7CFEB8BE1E68AA4600A3953F /* фанфары - машина найдена.wav */,
+				7CFEB8BF1E68AA4600A3953F /* фанфары - машина не найдена.wav */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A681964E8C9804946B59BBCC /* Frameworks */ = {
@@ -265,9 +291,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CFEB8C61E68AAA500A3953F /* Untitled.png in Resources */,
+				7CFEB8C21E68AA4600A3953F /* фанфары - машина не найдена.wav in Resources */,
+				7CFEB8C01E68AA4600A3953F /* загрузочный экран.wav in Resources */,
 				7CFEB8971E687A2800A3953F /* LaunchScreen.storyboard in Resources */,
-				7CFEB8BB1E687AEB00A3953F /* Configuration.plist in Resources */,
+				7CFEB8C71E68AAA500A3953F /* Untitled2.png in Resources */,
+				7CFEB8C11E68AA4600A3953F /* фанфары - машина найдена.wav in Resources */,
+				7CFEB8BB1E687AEB00A3953F /* Config.plist in Resources */,
 				7CFEB8941E687A2800A3953F /* Assets.xcassets in Resources */,
+				7CFEB8C81E68AAA500A3953F /* Untitled3.png in Resources */,
 				7CFEB8921E687A2800A3953F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,6 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NURV27KZRM;
 				INFOPLIST_FILE = MarioWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.taximaster.MarioWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,6 +544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NURV27KZRM;
 				INFOPLIST_FILE = MarioWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.taximaster.MarioWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -595,6 +629,7 @@
 				7CFEB8B31E687A2800A3953F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CFEB8B41E687A2800A3953F /* Build configuration list for PBXNativeTarget "MarioWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +638,7 @@
 				7CFEB8B61E687A2800A3953F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CFEB8B71E687A2800A3953F /* Build configuration list for PBXNativeTarget "MarioWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +647,7 @@
 				7CFEB8B91E687A2800A3953F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
