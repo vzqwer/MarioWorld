@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743EC87220A53EBC7BD50719 /* Pods_MarioWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA765C5BA0A1C1415D334695 /* Pods_MarioWorld.framework */; };
 		7CFEB88D1E687A2800A3953F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEB88C1E687A2800A3953F /* AppDelegate.swift */; };
 		7CFEB88F1E687A2800A3953F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEB88E1E687A2800A3953F /* ViewController.swift */; };
 		7CFEB8921E687A2800A3953F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8901E687A2800A3953F /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		7CFEB8971E687A2800A3953F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8951E687A2800A3953F /* LaunchScreen.storyboard */; };
 		7CFEB8A21E687A2800A3953F /* MarioWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEB8A11E687A2800A3953F /* MarioWorldTests.swift */; };
 		7CFEB8AD1E687A2800A3953F /* MarioWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEB8AC1E687A2800A3953F /* MarioWorldUITests.swift */; };
+		7CFEB8BB1E687AEB00A3953F /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CFEB8BA1E687AEB00A3953F /* Configuration.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		7CFEB8A81E687A2800A3953F /* MarioWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFEB8AC1E687A2800A3953F /* MarioWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioWorldUITests.swift; sourceTree = "<group>"; };
 		7CFEB8AE1E687A2800A3953F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFEB8BA1E687AEB00A3953F /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		9120740948737E64CEF37A76 /* Pods-MarioWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarioWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarioWorld/Pods-MarioWorld.release.xcconfig"; sourceTree = "<group>"; };
+		CA765C5BA0A1C1415D334695 /* Pods_MarioWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarioWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10559065C71F47D44EFF2E3 /* Pods-MarioWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarioWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarioWorld/Pods-MarioWorld.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743EC87220A53EBC7BD50719 /* Pods_MarioWorld.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D53470F0A35DE63D78B5F8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D10559065C71F47D44EFF2E3 /* Pods-MarioWorld.debug.xcconfig */,
+				9120740948737E64CEF37A76 /* Pods-MarioWorld.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7CFEB8801E687A2800A3953F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 				7CFEB8A01E687A2800A3953F /* MarioWorldTests */,
 				7CFEB8AB1E687A2800A3953F /* MarioWorldUITests */,
 				7CFEB88A1E687A2800A3953F /* Products */,
+				5D53470F0A35DE63D78B5F8F /* Pods */,
+				A681964E8C9804946B59BBCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +121,7 @@
 				7CFEB8931E687A2800A3953F /* Assets.xcassets */,
 				7CFEB8951E687A2800A3953F /* LaunchScreen.storyboard */,
 				7CFEB8981E687A2800A3953F /* Info.plist */,
+				7CFEB8BA1E687AEB00A3953F /* Configuration.plist */,
 			);
 			path = MarioWorld;
 			sourceTree = "<group>";
@@ -125,6 +144,14 @@
 			path = MarioWorldUITests;
 			sourceTree = "<group>";
 		};
+		A681964E8C9804946B59BBCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA765C5BA0A1C1415D334695 /* Pods_MarioWorld.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CFEB8B11E687A2800A3953F /* Build configuration list for PBXNativeTarget "MarioWorld" */;
 			buildPhases = (
+				729BEA3FC68F07EBF8D778D9 /* [CP] Check Pods Manifest.lock */,
 				7CFEB8851E687A2800A3953F /* Sources */,
 				7CFEB8861E687A2800A3953F /* Frameworks */,
 				7CFEB8871E687A2800A3953F /* Resources */,
+				DA02ADB29889C7D3BD9AB74A /* [CP] Embed Pods Frameworks */,
+				F67DD1B3E38276135C8356B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CFEB8971E687A2800A3953F /* LaunchScreen.storyboard in Resources */,
+				7CFEB8BB1E687AEB00A3953F /* Configuration.plist in Resources */,
 				7CFEB8941E687A2800A3953F /* Assets.xcassets in Resources */,
 				7CFEB8921E687A2800A3953F /* Main.storyboard in Resources */,
 			);
@@ -256,6 +287,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		729BEA3FC68F07EBF8D778D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA02ADB29889C7D3BD9AB74A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarioWorld/Pods-MarioWorld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F67DD1B3E38276135C8356B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarioWorld/Pods-MarioWorld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7CFEB8851E687A2800A3953F /* Sources */ = {
@@ -413,6 +492,7 @@
 		};
 		7CFEB8B21E687A2800A3953F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10559065C71F47D44EFF2E3 /* Pods-MarioWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NURV27KZRM;
@@ -426,6 +506,7 @@
 		};
 		7CFEB8B31E687A2800A3953F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9120740948737E64CEF37A76 /* Pods-MarioWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NURV27KZRM;

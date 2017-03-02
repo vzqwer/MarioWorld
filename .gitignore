@@ -1,0 +1,6 @@
+DerivedData
+Pods
+MarioWorld.xcworkspace
+.DS_Store
+/MarioWorld.xcodeproj/xcuserdata/*
+MarioWorld.xcodeproj/project.xcworkspace/xcuserdata
